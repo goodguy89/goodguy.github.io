@@ -1,131 +1,79 @@
 <!DOCTYPE html>
-     <html>
-     <meta charset="utf-8">
-     <title>module2-solution</title>
-     <style>
-    /*basic style*/
-    * {
-        box-sizing: border-box;
-    }
-
+<html>
+<head>
+  <title>Our Menu</title>
+  <style>
     body {
-        background-color: white;
+      font-family: sans-serif;
+      margin: 0;
     }
-
-    h1 {
-        margin: 100px;
-        text-align: center;
-        font-family: Helvetica;
-        font-weight: bold;
-        font-size: 175%;
+    header {
+      background-color: #f2f2f2;
+      padding: 20px;
     }
-
+    nav {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #fff;
+      padding: 10px 20px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    nav a {
+      color: #333;
+      text-decoration: none;
+      padding: 10px;
+    }
+    nav a:hover {
+      background-color: #ddd;
+    }
+    main {
+      padding: 20px;
+    }
     section {
-        position: relative;
-        padding: 15px;
-        width: 100%;
+      background-color: #fff;
+      padding: 20px;
+      border-radius: 5px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      margin-bottom: 20px;
     }
-
+    h2 {
+      color: #333;
+      margin-bottom: 10px;
+    }
     p {
-        position: relative;
-        clear: right;
+      line-height: 1.5;
+      color: #555;
     }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+    </nav>
+  </header>
 
-    div {
-        position: relative;
-        background-color: gray;
-        border: 1px solid black;
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        margin-bottom: auto;
-    }
+  <main>
+    <h2>Our Menu</h2>
 
-    .sub1 {
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: rgb(214, 124, 124);
+    <section>
+      <h2>Chicken</h2>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
 
-    }
+    <section>
+      <h2>Beef</h2>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
 
-    .sub2 {
-        float: right;
-        color: white;
-        width: 100px;
-        padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: maroon;
-
-    }
-
-    .sub3 {
-        color: black;
-        float: right;
-        width: 100px;
-        padding: 5px;
-        margin: 0px;
-        border: 1px solid black;
-        text-align: center;
-        font-size: 125%;
-        font-weight: bold;
-        background-color: rgb(223, 212, 121);
-
-    }
-
-    .content {
-        padding: 5px;
-        border: none;
-        background-color: gray;
-        font-family: Helvetica;
-        color: black;
-        margin: 0px;
-        height: 200px;
-        overflow: auto;
-    }
-
-    .row {
-        width: 90%;
-    }
-
-    /*desktop version*/
-    @media (min-width: 992px) {
-        .column-lg-4 {
-            float: left;
-            width: 33.33%;
-        }
-    }
-
-    /*tablet version*/
-    @media (min-width: 768px) and (max-width: 991px) {
-        .colmn-md-6 {
-            float: left;
-            width: 50%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-
-        .colmn-md-12 {
-            float: left;
-            width: 100%;
-            margin-left: auto;
-            margin-right: auto;
-        }
-    }
-
-    /*mobile version*/
-    @media (max-width: 767px) {
-        .colmn-sm-12 {
-            float: left;
-            width: 100%;
-        }
-    }
+    <section>
+      <h2>Sushi</h2>
+      <p>lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+    </section>
+  </main>
+</body>
+</html>
+          
